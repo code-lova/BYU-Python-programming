@@ -1,0 +1,21 @@
+#A madlibs game where a user insert words to make a funny story
+print('Please enter the following ')
+adjective = input('Adjective: ')
+animal = input('Animal: ')
+verb = input('Verb: ')
+exclamation = input('Exclamation: ')
+verb = input('Verb: ')
+verb = input('Verb: ')
+noun = input('Noun: ')
+plural_noun = input('Plural Noun: ')
+print()
+
+#The lines below prints the story out with the users words.
+print('This story is:')
+print()
+print(f'The The other day, I was really in trouble. It all started when I saw a very')
+print(f'{adjective} {animal} {verb} down the hallway. "{exclamation.capitalize()}!" I yelled. But all')
+print(f'I could think to do was to {verb} over and over. Miraculously,')
+print(f'that caused it to stop, but not before it tried to {verb}')
+print(f'right in front of my family. Just before it was too late, a {noun} came to our rescue,')
+print(f'with other {plural_noun}.')
