@@ -100,17 +100,22 @@ def populate_main_window(frm_main):
             d = ent_diam.get()
 
             # Compute the tire volume in liters.
-            v = (math.pi * w * w * a * (w * a + 2540 * d)) / 10_000_000_000
+            v = tire_volume(w, a, d)
 
             # Display the volume rounded to one digit
             # after the decimal for the user to see.
-            txt_volume.config(text=f"{v:.2f}")
+            txt_volume.config(text=f"{v:.1f}")
 
         except ValueError:
             # When the user deletes all the digits in one
             # of the number entries, clear the result.
             txt_volume.config(text="")
 
+    def tire_volume(width, ratio, diameter):
+        """compute and return the volume of tire"""
+        vol = (math.pi * width * width * ratio *(width * ratio + 2540 * diameter)) / 10_000_000
+        
+        return vol
 
     # This function is called each time
     # the user clicks the "Clear" button.
