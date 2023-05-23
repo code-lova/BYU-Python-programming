@@ -49,12 +49,11 @@ def main():
                 year = row[YEAR_COLUMN]
 
                 # Call the estimate_reduction function.
-                injur, fatal = estimate_reduction(
-                        row, PHONE_COLUMN, perc_reduc)
+                injur, fatal = estimate_reduction(row, behavior_key=PHONE_COLUMN, perc_reduc=perc_reduc)
 
                 # Print the estimated reductions
                 # in injuries and fatalities.
-                print(year, injur, fatal, sep=", ")
+                print(year, injur, fatal, sep=",  ")
                 
     except FileNotFoundError as not_fount_error:
         # This code will be executed if the user enters

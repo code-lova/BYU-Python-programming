@@ -29,9 +29,10 @@ def main():
 
         # Add the number of credits to the total.
         total += credits
+        print(key, value)
+        
 
     print(f"Total credits earned by all students: {total}")
-
 
 # Call main to start this program.
 if __name__ == "__main__":

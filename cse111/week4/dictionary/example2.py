@@ -9,7 +9,7 @@ def main():
         "61-315-0160": ["Amelia", "Davis", "dav21012@byui.edu", 3],
         "10-450-1203": ["Ana", "Soares", "soa22005@byui.edu", 15],
         "75-421-2310": ["Abdul", "Ali", "ali20003@byui.edu", 5],
-        "07-103-5621": ["Amelia", "Davis" "dav19008@byui.edu", 0]
+        "07-103-5621": ["Amelia", "Davis", "dav19008@byui.edu", 0]
     }
 
     # These are the indexes of the elements in the value lists.
@@ -34,7 +34,7 @@ def main():
         surname = value[SURNAME_INDEX]
 
         # Print the student's name.
-        print(f"{given_name} {surname}")
+        print(given_name, surname)
 
     else:
         print("No such student")
