@@ -1,0 +1,28 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+Answer: functions are very good are they help break work down into smaller parts 
+and its helpful when debugging too, cause one can easily debug when there are but few lines 
+of code. It has helped me always when writing programms and assignments, especially when
+a program involves calculations. 
+
+
+2. In your judgment, what is the value of test functions?
+Ans: The value of test function is to check if your functions are working correctly.
+And if its not working corretcly it shows and tell the particular line of 
+code that needs to be fixed in the program and we do well in fixing it.
+
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+
+Ans: We where taught that the degugger in VS code is a very useful tool for 
+debugging errors in code. I would say using the debugger is a great way to do that.
+Also python give the advange of specifying the line in the code that have the error, 
+so if this is coming from a function, it will tell us the line in the terminal, 
+and if we are calling our function into the main function, python will also tell 
+us too and what line of code the error
+is coming from.
+

@@ -1,7 +1,6 @@
-First Report for a Student Chosen Project
+Second Report for a Student Chosen Project
 
-    (Please report on your progress toward completing your chosen
-    project by answering the following questions.)
+Do the following:
 
 1. In the table below, list the dates, amount of time spent, and
 description of the work that you did on your project. Follow the example
@@ -11,15 +10,16 @@ doing any of the following:
     b. researching by reading articles and watching applicable videos
     c. designing your project by drawing diagrams and other applicable documents
     d. writing experimental code
-    e. writing code for your project
-    f. writing test functions
-    g. debugging your code
-    h. any other activity that helped you complete your project
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
 
             Time Spent
    Date       (hours)   Description of Work
 ----------  ----------  -------------------------
-2021-12-02      1.5     Read tutorials about the Python requests module
+2021-12-03      2.5     Wrote two program functions and two test functions
+
 
 a.    Time Spent
    Date       (mins)    Description of Work
@@ -44,39 +44,18 @@ d.   Time Spent
 e.   Time Spent
    Date       (hours)   Description of Work
 ----------  ----------  -------------------------
-2023-06-25      1       wrote the code for the project
+2023-06-28      1       update the code for the project
 
 f.   Time Spent
    Date       (hours)   Description of Work
 ----------  ----------  -------------------------
-2023-06-25      1.5     Wrote test function for the project.
+2023-06-29      1.5     update test function for the project.
 
 g.   Time Spent
    Date       (hours)   Description of Work
 ----------  ----------  -------------------------
-2023-06-25      1.5     Test and debugged my code for different errors
+2023-06-29      1.5     update Test and debugged my code for different errors
 
 
-
-2. Write the names of the functions in your program.
-   Ans: main_request, get_pages, get_parse_json_data
-
-
-3. Answer the following questions about the functions in your program.
-    a. Does each function perform a single task?
-    Ans: yes each function performs a single task
-
-    b. Does the name of each function describe or convey the task?
-    Ans: The name of each function describes the tasks.
-
-    c. Do most of your program functions have parameters and return a result?
-    Ans: Yes my program function have parameters and return a result
-
-    If you answered "no" to any of the above three questions, what are
-    you planning to change in your project?
-
-
-4. Write the names of the test functions that you wrote to test your
-program functions.
-Ans: test_api_request
-
+2. In I-Learn, submit this completed text file, your Python program, your
+Python test file, and any project data files such as .txt and .csv files.

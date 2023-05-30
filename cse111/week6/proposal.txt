@@ -10,22 +10,19 @@ CSE 111 Proposal for a Student Chosen Program
     knowledge.)
 
 1. What is the title of your program?
-   Ans: Creating a QR code generator.
+   Ans: A program that retrieves data from a a server on the internet..
 
 2. What real-world problem will your program address or help to solve?
-   Ans: A program with a complete graphical user interface (GUI), 
-   including windows, frames, labels, text fields, and buttons. 
-   That will help give users the ability to visually interact with,
-   also generate QR code to what ever is typed
-   in the text field creating a QR code. This is just a beginner project.
+   Ans: A program that will get data from the sereve using API
+   with the a specific data the user enters or request for. This is just a beginner project.
 
 3. What will you learn from developing this program?
-   Ans: i will be learing how to use tkinter to make nice looking
-   GUI for Users to interact with.
+   Ans: i will be learing how to use extract data from the sereve using API 
+   into a list and a dictionary.
 
 4. What Python modules will your program use?
 
-  Ans: (tkinter, Pillow)
+  Ans: (request, pandas)
 
 5. Will you separate your Python program into functions that each
 perform a single task?
