@@ -6,6 +6,7 @@ word_file = open("words.txt")
 for word in word_file:
     word_list.append(word.strip())
     
+# print(word_list)
 #pick a word from the list
 #storing the answer in the variable called answer
 answer = random.choice(word_list)

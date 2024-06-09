@@ -13,7 +13,7 @@ print("The answer is {}".format(add(x,y)))
 print(stat_range([1,3,4,5,6,59,30]))
 
 for num in range(5):
-    print("{:02d}".format(num), end=" ")
+    print("{:02d}".format(num), end=", ")
     
 print()  
 print("Enter a number to add")
